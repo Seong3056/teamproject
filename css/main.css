@@ -42,11 +42,12 @@ h3 {
 .phone{
     width: 600px;
 }
-.buy {
-    width: 509px;
-}
+
 .mark {
     width: 120px;
+}
+.buy{
+    width: 509px;
 }
 
 .wrap {
@@ -237,6 +238,12 @@ h3 {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    align-items: flex-start;
+}
+.wrap .container2 .container-inner ul .title{
+    margin-bottom: 10px;
+    color: #3182f6;
+    font-size: 20px;
 }
 .wrap .container2 .container-inner ul .big {
     margin-bottom: 20px;
@@ -249,13 +256,22 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    
 
 }
-.wrap .container2 .container-inner ul .box2{
-    display: flex;
+.wrap .container2 .container-inner ul .box2{    
     flex-direction: row-reverse;
-    justify-content: space-between;
+    align-items: center;
+    
 }
+.wrap .container2 .container-inner ul .box li{
+    padding-left: 38px;
+}
+/* end container2 */
+
+
 /* footer */
 footer {
     width: 100%;
